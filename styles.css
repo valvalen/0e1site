@@ -735,8 +735,12 @@
   --collection-card-cover-size-small: 2.5rem !important; }
 
 @font-face {
-  font-family: 'Clash Grotesk Semibold';
-  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap")}
+   font-family: 'Clash Grotesk Semibold';
+   src: url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Semibold.woff2") format("woff2"), url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Semibold.woff") format("woff");
+   font-weight: 700;
+   font-display: swap;
+   font-style: normal; }
+   src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap")}
 
 @font-face {
   font-family: 'Clash Grotesk Regular';
